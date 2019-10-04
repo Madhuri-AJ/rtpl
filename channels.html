@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MTPL Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+</head>
+
+<body>
+    <div class="">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="left-part">
+                    <img src="images/mtpl-logo-top.svg" />
+                    <p class="muted-p mt-4 mb-1">Navigation</p>
+                    <ul>
+                        <li>
+                            <a href="#">Channels</a>
+                        </li>
+                        <li>
+                            <a href="#">Packages</a>
+                        </li>
+                        <li>
+                            <a href="#">Packs</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-10">
+                <div class="channelsinfo">
+                    <h5 class="main__head">
+                        <b>CHANNELS</b>
+                        <button class="btn blueborder-btn" data-toggle="modal" data-target="#addChannelModal">Add
+                            Channel</button>
+                    </h5>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>CHANNEL NAME</th>
+                                <th>BROADCASTER</th>
+                                <th>REGION/CATEGORY</th>
+                                <th>LANGUAGE</th>
+                                <th>GENRE</th>
+                                <th>PRICE</th>
+                                <th>ACTION</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>
+                                    <div class="float-left small__img">
+                                        <img src="images/star.png" alt="">
+                                    </div>
+                                    <div class="right">Star Sports 1 Hindi</div>
+                                    <div class="clearfix"></div>
+                                </td>
+                                <td>Star</td>
+                                <td>North Indian</td>
+                                <td>Hindi</td>
+                                <td>Entertainment</td>
+                                <td>20</td>
+                                <td>
+                                    <a href="#" onclick="return false;" class="text-red">Edit</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>
+                                    <div class="float-left small__img">
+                                        <img src="images/star.png" alt="">
+                                    </div>
+                                    <div class="right">Star Sports 1 Hindi</div>
+                                    <div class="clearfix"></div>
+                                </td>
+                                <td>Star</td>
+                                <td>North Indian</td>
+                                <td>Hindi</td>
+                                <td>Entertainment</td>
+                                <td>20</td>
+                                <td>
+                                    <a href="#" onclick="return false;" class="text-red">Edit</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>
+                                    <div class="float-left small__img">
+                                        <img src="images/star.png" alt="">
+                                    </div>
+                                    <div class="right">Star Sports 1 Hindi</div>
+                                    <div class="clearfix"></div>
+                                </td>
+                                <td>Star</td>
+                                <td>North Indian</td>
+                                <td>Hindi</td>
+                                <td>Entertainment</td>
+                                <td>20</td>
+                                <td>
+                                    <a href="#" onclick="return false;" class="text-red">Edit</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>
+                                    <div class="float-left small__img">
+                                        <img src="images/star.png" alt="">
+                                    </div>
+                                    <div class="right">Star Sports 1 Hindi</div>
+                                    <div class="clearfix"></div>
+                                </td>
+                                <td>Star</td>
+                                <td>North Indian</td>
+                                <td>Hindi</td>
+                                <td>Entertainment</td>
+                                <td>20</td>
+                                <td>
+                                    <a href="#" onclick="return false;" class="text-red">Edit</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="channelsinfo">
+                    <h5 class="main__head">
+                        <b>PACKAGES</b>
+                        <button class="btn blueborder-btn" data-toggle="modal" data-target="#addPackageModal">Add
+                            Package</button>
+                    </h5>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>PACKAGE NAME</th>
+                                <th>REGION/CATEGORY</th>
+                                <th>PRIMARY LANGUAGE</th>
+                                <th>PRIMARY GENRE</th>
+                                <th>CHANNELS ASSIGNED</th>
+                                <th>PACKAGE POINTS</th>
+                                <th>PRICE</th>
+                                <th>ACTION</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Star Sports 1 Hindi</td>
+                                <td>North Indian</td>
+                                <td>Hindi</td>
+                                <td>Entertainment</td>
+                                <td> <a href="#" onclick="return false;" class="text-red">VIEW</a></td>
+                                <td>20 Kannada Channels..</td>
+                                <td>
+                                    <a href="#" onclick="return false;" class="text-red">Edit</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Star Sports 1 Hindi</td>
+                                <td>North Indian</td>
+                                <td>Hindi</td>
+                                <td>Entertainment</td>
+                                <td> <a href="#" onclick="return false;" class="text-red">VIEW</a></td>
+                                <td>20 Kannada Channels..</td>
+                                <td>
+                                    <a href="#" onclick="return false;" class="text-red">Edit</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Star Sports 1 Hindi</td>
+                                <td>North Indian</td>
+                                <td>Hindi</td>
+                                <td>Entertainment</td>
+                                <td> <a href="#" onclick="return false;" class="text-red">VIEW</a></td>
+                                <td>20 Kannada Channels..</td>
+                                <td>
+                                    <a href="#" onclick="return false;" class="text-red">Edit</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Star Sports 1 Hindi</td>
+                                <td>North Indian</td>
+                                <td>Hindi</td>
+                                <td>Entertainment</td>
+                                <td> <a href="#" onclick="return false;" class="text-red">VIEW</a></td>
+                                <td>20 Kannada Channels..</td>
+                                <td>
+                                    <a href="#" onclick="return false;" class="text-red">Edit</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="channelsinfo">
+                    <h5 class="main__head">
+                        <b>ASSIGNED CHANNELS</b>
+                        <button class="btn blueborder-btn" data-toggle="modal" data-target="#assignChannelModal">Assign
+                            Channel</button>
+                    </h5>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>CHANNEL NAME</th>
+                                <th>BROADCASTER</th>
+                                <th>REGION/CATEGORY</th>
+                                <th>LANGUAGE</th>
+                                <th>GENRE</th>
+                                <th>PRICE</th>
+                                <th>ACTION</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>
+                                    <div class="float-left small__img">
+                                        <img src="images/star.png" alt="">
+                                    </div>
+                                    <div class="right">Star Sports 1 Hindi</div>
+                                    <div class="clearfix"></div>
+                                </td>
+                                <td>Star</td>
+                                <td>North Indian</td>
+                                <td>Hindi</td>
+                                <td>Entertainment</td>
+                                <td>20</td>
+                                <td>
+                                    <a href="#" onclick="return false;" class="text-red">Edit</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>
+                                    <div class="float-left small__img">
+                                        <img src="images/star.png" alt="">
+                                    </div>
+                                    <div class="right">Star Sports 1 Hindi</div>
+                                    <div class="clearfix"></div>
+                                </td>
+                                <td>Star</td>
+                                <td>North Indian</td>
+                                <td>Hindi</td>
+                                <td>Entertainment</td>
+                                <td>20</td>
+                                <td>
+                                    <a href="#" onclick="return false;" class="text-red">Edit</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>
+                                    <div class="float-left small__img">
+                                        <img src="images/star.png" alt="">
+                                    </div>
+                                    <div class="right">Star Sports 1 Hindi</div>
+                                    <div class="clearfix"></div>
+                                </td>
+                                <td>Star</td>
+                                <td>North Indian</td>
+                                <td>Hindi</td>
+                                <td>Entertainment</td>
+                                <td>20</td>
+                                <td>
+                                    <a href="#" onclick="return false;" class="text-red">Edit</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>
+                                    <div class="float-left small__img">
+                                        <img src="images/star.png" alt="">
+                                    </div>
+                                    <div class="right">Star Sports 1 Hindi</div>
+                                    <div class="clearfix"></div>
+                                </td>
+                                <td>Star</td>
+                                <td>North Indian</td>
+                                <td>Hindi</td>
+                                <td>Entertainment</td>
+                                <td>20</td>
+                                <td>
+                                    <a href="#" onclick="return false;" class="text-red">Edit</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="channelsinfo">
+                    <h5 class="main__head">
+                        <b>PACKS</b>
+                        <button class="btn blueborder-btn" data-toggle="modal" data-target="#addPackModal">Add Pack
+                        </button>
+                    </h5>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Pack Name</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Broadcaster Package</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Curated Packages</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>MTPL PAckages</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="addChannelModal" tabindex="-1" role="dialog" aria-labelledby="addChannelLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content border-0 custom__modal">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addChannelLabel">Add Channel</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body pm-30">
+                    <div class="form-group">
+                        <select class="custom-select">
+                            <option selected>Broadcaster</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" placeholder="Channel Name" />
+                    </div>
+                    <div class="form-group">
+                        <select class="custom-select">
+                            <option selected>Region/Category</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select class="custom-select">
+                            <option selected>Language</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select class="custom-select">
+                            <option selected>Genre</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" placeholder="Price" />
+                    </div>
+                    <div class="upload-input">
+                        <input type="file" />
+                        <div class="check-box">
+                            <div><b>Upload Channel Photo</b></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn blue__btn">Add Channel</button>
+                    <button type="button" class="btn cancel__btn" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="addPackageModal" tabindex="-1" role="dialog" aria-labelledby="addPackageLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content border-0 custom__modal">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addPackageLabel">Add Package</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body pm-30">
+                    <div class="form-group">
+                        <input class="form-control" placeholder="Package Name" />
+                    </div>
+                    <div class="form-group">
+                        <select class="custom-select">
+                            <option selected>Region/Category</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select class="custom-select">
+                            <option selected>Primary Language</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select class="custom-select">
+                            <option selected>Primary Genre</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" placeholder="Price" />
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" placeholder="Point 1" />
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" placeholder="Point 2" />
+                    </div>
+                    <button class="text-danger btn btn--ntg">Add Point</button>
+                    <!-- <a href="#" class="text-danger">Add Point</a> -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn blue__btn">Add Package</button>
+                    <button type="button" class="btn cancel__btn" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade assign__channel" id="assignChannelModal" tabindex="-1" role="dialog"
+        aria-labelledby="assignChannelLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content border-0 custom__modal">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="assignChannelLabel">Select Package</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body p-0">
+                    <div class="border-bottom pm-30 py-3">
+                        <div class="form-group mb-0">
+                            <select class="custom-select">
+                                <option selected>SubPakge</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="channel__list py-3">
+                        <input type="text" id="channelSearch" class="round__search form-control mb-4"
+                            placeholder="Search Channel">
+                        <ul id="channelFilter">
+                            <li>
+                                <div class="custom-control custom-checkbox mb-3">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck"
+                                        name="example1">
+                                    <img width="30" height="30" src="images/star.png" class="mx-3" />
+                                    <label class="custom-control-label" for="customCheck">
+                                        &TV </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="custom-control custom-checkbox mb-3">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck"
+                                        name="example1">
+                                    <img width="30" height="30" src="images/star.png" class="mx-3" />
+                                    <label class="custom-control-label" for="customCheck">
+                                        Big Magic</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="custom-control custom-checkbox mb-3">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck"
+                                        name="example1">
+                                    <img width="30" height="30" src="images/star.png" class="mx-3" />
+                                    <label class="custom-control-label" for="customCheck">
+                                        Colors Rishtey</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="custom-control custom-checkbox mb-3">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck"
+                                        name="example1">
+                                    <img width="30" height="30" src="images/star.png" class="mx-3" />
+                                    <label class="custom-control-label" for="customCheck">
+                                        Colors TV </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="custom-control custom-checkbox mb-3">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck"
+                                        name="example1">
+                                    <img width="30" height="30" src="images/star.png" class="mx-3" />
+                                    <label class="custom-control-label" for="customCheck">
+                                        Dangal TV </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="custom-control custom-checkbox mb-3">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck"
+                                        name="example1">
+                                    <img width="30" height="30" src="images/star.png" class="mx-3" />
+                                    <label class="custom-control-label" for="customCheck">
+                                        DD Bharati</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="custom-control custom-checkbox mb-3">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck"
+                                        name="example1">
+                                    <img width="30" height="30" src="images/star.png" class="mx-3" />
+                                    <label class="custom-control-label" for="customCheck">
+                                        DD National
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="custom-control custom-checkbox mb-3">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck"
+                                        name="example1">
+                                    <img width="30" height="30" src="images/star.png" class="mx-3" />
+                                    <label class="custom-control-label" for="customCheck"> Discovery
+                                        Jeet</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="custom-control custom-checkbox mb-3">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck"
+                                        name="example1">
+                                    <img width="30" height="30" src="images/star.png" class="mx-3" />
+                                    <label class="custom-control-label" for="customCheck">
+                                        Sony Entertainment Television </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="custom-control custom-checkbox mb-3">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck"
+                                        name="example1">
+                                    <img width="30" height="30" src="images/star.png" class="mx-3" />
+                                    <label class="custom-control-label" for="customCheck">
+                                        Sony Sab Other Sab</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="custom-control custom-checkbox mb-3">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck"
+                                        name="example1">
+                                    <img width="30" height="30" src="images/star.png" class="mx-3" />
+                                    <label class="custom-control-label" for="customCheck">
+                                        Other Sab</label>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn blue__btn">Assign</button>
+                    <button type="button" class="btn cancel__btn" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="addPackModal" tabindex="-1" role="dialog"
+        aria-labelledby="addPackLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content border-0 custom__modal">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addPackLabel">Add Pack</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body pm-30">
+                    <div class="form-group mb-0">
+                        <input type="text"  class="form-control" placeholder="Pack Name">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn blue__btn">Add Package</button>
+                    <button type="button" class="btn cancel__btn" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
